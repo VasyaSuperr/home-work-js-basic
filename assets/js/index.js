@@ -75,3 +75,23 @@ let num12 = num--; // Префіксна форма
 console.log("Meaning of num (num--): " + num12);
 
 console.log("Meaning of num: " + num);
+
+// =============================================================================
+console.log("\nЗавдання на введення/виведення");
+
+console.log("// #1");
+// const someNumberFromTheUser = Number(prompt("Input some number: ", "50"));
+// const squareOfNumber = someNumberFromTheUser ** 2;
+// console.log("Squared number from user: " + squareOfNumber);
+
+console.log("// #2");
+// const someNumberFromUser1 = +prompt("Input first number: ", "1");
+// const someNumberFromUser2 = +prompt("Input second number: ", "10");
+// const average = (someNumberFromUser1 + someNumberFromUser2) / 2;
+// alert("Average value of numbers: " + average);
+// console.log("Average value of numbers: " + average);
+
+console.log("// #3");
+const numberOfMinutesFromUser = prompt("Input the number of minutes: ", "50");
+const numberOfSeconds = +numberOfMinutesFromUser * 60;
+console.log("Number of seconds: " + numberOfSeconds);
