@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 50px;
+}
+
+.user-card {
+  background-color: burlywood;
+  color: gray;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 50px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.img-user {
+  background-color: darkgray;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name-surname {
+  color: black;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.address-residence {
+  color: grey;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.main-inform-in-card {
+  padding-top: 20px;
+  border-top: 1px solid gray;
+  line-height: 32px;
+}
+
+.embedded-information {
+  color: black;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 701px) {
+  .user-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 330px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .user-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-width: 250px;
+    width: 100%;
+    font-size: 12px;
+  }
+}
